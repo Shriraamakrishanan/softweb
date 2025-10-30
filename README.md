@@ -28,6 +28,112 @@ Validate the HTML code.
 Publish the website in the given URL.
 
 ## PROGRAM:
+# index.html
+```
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - The Great Indian Kitchen</title>
+    <style>
+        body {
+            background-color: rgb(76, 87, 244);
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: rgb(68, 231, 220);
+            color: white;
+            padding: 15px 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: rgb(69, 223, 234);
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+        }
+        nav a:hover {
+            background-color: rgb(70, 242, 141);
+        }
+        .welcome {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 50px;
+        }
+        .welcome h1 {
+            font-size: 2.5rem;
+        }
+        .welcome p {
+            font-size: 1.2rem;
+            margin: 20px 0;
+        }
+        .features {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 20px;
+            text-align: center;
+        }
+        .feature {
+            margin: 10px;
+            padding: 20px;
+            border: 1px solid silver;
+            border-radius: 5px;
+            width: 300px;
+        }
+        footer {
+            background-color: rgb(242, 229, 91);
+            color: white;
+            text-align: center;
+            padding: 10px 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to The Great Indian Kitchen</h1>
+    </header>
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="menu.html">Menu</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <div class="welcome">
+        <h1>Awaken To Paradise.</h1>
+        <p>The Great Indian Kitchen offers a wide range of delicious dishes made from the freshest ingredients. Experience the taste of perfection with every bite!</p>
+    </div>
+    <section class="features">
+        <div class="feature">
+            <h3>Fresh Ingredients</h3>
+            <p>We use only the freshest and highest-quality ingredients to prepare our dishes.</p>
+        </div>
+        <div class="feature">
+            <h3>Family-Friendly</h3>
+            <p>Enjoy a welcoming and comfortable atmosphere perfect for family gatherings.</p>
+        </div>
+        <div class="feature">
+            <h3>Exceptional Service</h3>
+            <p>Our friendly staff is here to make your dining experience unforgettable.</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; The Great Indian Kitchen. All Rights Reserved.</p>
+        <p> designed and developed by: SHRI RAAMA KRISHANAN J </p>
+    </footer>
+</body>
+</html>
+
+```
 # menu.html
 ```
 <html>
@@ -126,6 +232,7 @@ Publish the website in the given URL.
 </body>
 </html>
 ```
+
 # about.html
 ```
 <html>
